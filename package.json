@@ -1,0 +1,49 @@
+{
+  "name": "@blackice2090/saif-skills",
+  "version": "0.1.0",
+  "description": "SAIF 2026 competition skills for Claude Code and Codex: project diagnosis, application writing, poster preparation, submission compliance, and jury readiness.",
+  "type": "module",
+  "bin": {
+    "saif-skills": "./bin/saif-skills.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "references/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node ./bin/saif-skills.js self-test",
+    "pack:dry": "npm pack --dry-run",
+    "prepublishOnly": "npm test",
+    "release": "npm publish --access public"
+  },
+  "keywords": [
+    "saif",
+    "saif-2026",
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "skill-md",
+    "competition",
+    "innovation"
+  ],
+  "author": "blackice2090",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackice2090/saif-skills.git"
+  },
+  "homepage": "https://github.com/blackice2090/saif-skills#readme",
+  "bugs": {
+    "url": "https://github.com/blackice2090/saif-skills/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
