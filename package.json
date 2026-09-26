@@ -1,6 +1,6 @@
 {
   "name": "@blackice27/saif-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SAIF 2026 competition skills for Claude Code and Codex: project diagnosis, application writing, poster preparation, submission compliance, and jury readiness.",
   "type": "module",
   "bin": {
