@@ -21,6 +21,7 @@ SAIF Skills CLI
 
 Usage:
   saif-skills install [options]
+  saif-skills update [options]
   saif-skills doctor [options]
   saif-skills list
   saif-skills where [options]
@@ -41,11 +42,11 @@ Default targets:
   Codex global:  ~/.codex/skills
 
 Examples:
-  npx @blackice2090/saif-skills install
-  npx @blackice2090/saif-skills install --global
-  npx @blackice2090/saif-skills install --platform codex --global
-  npx @blackice2090/saif-skills install --target ./agent-skills
-  npx @blackice2090/saif-skills doctor --global
+  npx @blackice27/saif-skills install
+  npx @blackice27/saif-skills install --global
+  npx @blackice27/saif-skills install --platform codex --global
+  npx @blackice27/saif-skills install --target ./agent-skills
+  npx @blackice27/saif-skills doctor --global
 `);
   process.exit(exitCode);
 }
@@ -137,6 +138,10 @@ function install(opts) {
   console.log('\nRun "saif-skills doctor" with the same target options to verify the install.');
 }
 
+function update(opts) {
+  install({ ...opts, force: true });
+}
+
 function doctor(opts) {
   const target = resolveTarget(opts);
   let ok = true;
@@ -200,6 +205,7 @@ try {
   const opts = parseArgs(process.argv.slice(2));
   switch (opts.command) {
     case 'install': install(opts); break;
+    case 'update': update(opts); break;
     case 'doctor': doctor(opts); break;
     case 'list': console.log(SKILLS.join('\n')); break;
     case 'where': console.log(resolveTarget(opts)); break;

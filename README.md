@@ -88,6 +88,7 @@ npx @blackice27/saif-skills@latest install --target ./my-skills
 
 ```text
 saif-skills install [options]
+saif-skills update [options]
 saif-skills doctor [options]
 saif-skills list
 saif-skills where [options]
@@ -107,17 +108,21 @@ Useful options:
 
 ## Update
 
-Re-run the latest package and replace the existing SAIF skill files:
+Update all installed SAIF Skills to the latest published version.
+
+Claude Code:
 
 ```bash
-npx @blackice27/saif-skills@latest install --global --force
+npx @blackice27/saif-skills@latest update --global
 ```
 
-For Codex:
+Codex:
 
 ```bash
-npx @blackice27/saif-skills@latest install --platform codex --global --force
+npx @blackice27/saif-skills@latest update --platform codex --global
 ```
+
+The update command replaces the SAIF-managed skill and reference files with the latest version.
 
 ## Uninstall
 
