@@ -1,8 +1,8 @@
 # SAIF Skills
 
 [![CI](https://github.com/blackice2090/saif-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/blackice2090/saif-skills/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/%40blackice2090%2Fsaif-skills.svg)](https://www.npmjs.com/package/@blackice2090/saif-skills)
-[![npm downloads](https://img.shields.io/npm/dm/%40blackice2090%2Fsaif-skills.svg)](https://www.npmjs.com/package/@blackice2090/saif-skills)
+[![npm version](https://img.shields.io/npm/v/%40blackice2090%2Fsaif-skills.svg)](https://www.npmjs.com/package/@blackice27/saif-skills)
+[![npm downloads](https://img.shields.io/npm/dm/%40blackice2090%2Fsaif-skills.svg)](https://www.npmjs.com/package/@blackice27/saif-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A focused Agent Skills pack for **SAIF 2026** that takes a contestant from project diagnosis to application writing, scientific poster preparation, submission compliance, and jury readiness.
@@ -16,13 +16,13 @@ A focused Agent Skills pack for **SAIF 2026** that takes a contestant from proje
 Project install:
 
 ```bash
-npx @blackice2090/saif-skills@latest install
+npx @blackice27/saif-skills@latest install
 ```
 
 Global install:
 
 ```bash
-npx @blackice2090/saif-skills@latest install --global
+npx @blackice27/saif-skills@latest install --global
 ```
 
 ### Codex
@@ -30,19 +30,19 @@ npx @blackice2090/saif-skills@latest install --global
 Project install:
 
 ```bash
-npx @blackice2090/saif-skills@latest install --platform codex
+npx @blackice27/saif-skills@latest install --platform codex
 ```
 
 Global install:
 
 ```bash
-npx @blackice2090/saif-skills@latest install --platform codex --global
+npx @blackice27/saif-skills@latest install --platform codex --global
 ```
 
 ### Verify the installation
 
 ```bash
-npx @blackice2090/saif-skills@latest doctor --global
+npx @blackice27/saif-skills@latest doctor --global
 ```
 
 For a project-local install, omit `--global`.
@@ -63,7 +63,7 @@ Shared references are installed automatically with the skills.
 ## Install selected skills only
 
 ```bash
-npx @blackice2090/saif-skills@latest install \
+npx @blackice27/saif-skills@latest install \
   --only saif-orchestrator,saif-project-diagnostic
 ```
 
@@ -77,7 +77,7 @@ npx @blackice2090/saif-skills@latest install \
 You can also choose any directory:
 
 ```bash
-npx @blackice2090/saif-skills@latest install --target ./my-skills
+npx @blackice27/saif-skills@latest install --target ./my-skills
 ```
 
 ## CLI
@@ -106,13 +106,13 @@ Useful options:
 Re-run the latest package and replace the existing SAIF skill files:
 
 ```bash
-npx @blackice2090/saif-skills@latest install --global --force
+npx @blackice27/saif-skills@latest install --global --force
 ```
 
 For Codex:
 
 ```bash
-npx @blackice2090/saif-skills@latest install --platform codex --global --force
+npx @blackice27/saif-skills@latest install --platform codex --global --force
 ```
 
 ## Uninstall
@@ -120,13 +120,13 @@ npx @blackice2090/saif-skills@latest install --platform codex --global --force
 Claude Code global install:
 
 ```bash
-npx @blackice2090/saif-skills@latest uninstall --global
+npx @blackice27/saif-skills@latest uninstall --global
 ```
 
 Codex global install:
 
 ```bash
-npx @blackice2090/saif-skills@latest uninstall --platform codex --global
+npx @blackice27/saif-skills@latest uninstall --platform codex --global
 ```
 
 ## Repository structure
@@ -204,7 +204,7 @@ git push --follow-tags
 The package name is:
 
 ```text
-@blackice2090/saif-skills
+@blackice27/saif-skills
 ```
 
 First-time/manual publish:
