@@ -1,4 +1,8 @@
-<p align="center">`n  <img src="assets/saif-skills-banner.png" alt="SAIF Skills" width="100%">`n</p>`n`n# SAIF Skills
+<p align="center">
+  <img src="assets/saif-skills-banner.png" alt="SAIF Skills" width="100%">
+</p>
+
+# SAIF Skills
 
 [![CI](https://github.com/blackice2090/saif-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/blackice2090/saif-skills/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/%40blackice27%2Fsaif-skills.svg)](https://www.npmjs.com/package/@blackice27/saif-skills)
@@ -225,4 +229,5 @@ Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
 
