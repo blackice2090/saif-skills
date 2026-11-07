@@ -60,7 +60,7 @@ For a project-local install, omit `--global`.
 | `saif-application-writer` | Produces precise English portal content, including the 500-character marketing summary |
 | `saif-submission-compliance` | Audits portal, team, files, Drive, IP, previous participation, and final submission requirements |
 | `saif-scientific-poster` | Builds and audits the scientific poster using the supplied SAIF template/guidance |
-| `saif-poster-presentation` | Rehearses clear, evidence-based poster explanations and visitor/judge conversations |
+| `saif-poster-presentation` | Builds and rehearses evidence-based poster walkthroughs and prototype pitches for judges |
 | `saif-jury-readiness` | Red-teams claims and prepares evidence-backed answers for judge questions |
 
 The seven-skill journey is: **diagnose the project → write the application → check submission compliance → build the poster → present and rehearse the poster → prepare for judge questions**. The orchestrator routes to the relevant stage based on what the contestant needs now.
@@ -159,6 +159,7 @@ saif-skills/
 │  ├─ official_submission_rules.md
 │  ├─ judge_video_notes.md
 │  ├─ poster_presentation_notes.md
+│  ├─ prototype_to_pitch_notes.md
 │  ├─ project_readiness_model.md
 │  └─ source_map.md
 ├─ .github/workflows/

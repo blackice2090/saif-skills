@@ -1,20 +1,20 @@
 ---
 name: saif-poster-presentation
-description: Prepare contestants to present a scientific poster clearly and confidently, turn it into an evidence-based conversation, adapt explanations to visitors and judges, coordinate team delivery, and rehearse without overstating results.
+description: Coach scientific poster walkthroughs and judging-panel pitches. Use when a contestant wants to explain a prototype, show results and innovation, plan a timed presentation, coordinate speakers, or rehearse delivery.
 ---
 
 # Scientific Poster Presentation Skills: From Preparation to Impactful Presence
 
 ## Purpose
 
-Help a contestant turn a scientific poster into a clear, evidence-based conversation with visitors and judges. Focus on the spoken explanation, audience interaction, delivery, and rehearsal. Do not rewrite or redesign the poster here; route that work to `saif-scientific-poster`.
+Choose the delivery format the contestant needs. For a booth conversation, use the poster walkthrough and adapt to the visitor. For a judging-panel pitch, use the panel workflow below to explain the prototype, its evidence, and its value in the allotted time. Route poster writing and layout to `saif-scientific-poster`.
 
 ## Source classification
 
 Label claims and recommendations using these categories:
 
 - **OFFICIAL REQUIREMENT / OFFICIAL GUIDANCE** — a current requirement or instruction stated by SAIF's official materials. Link or name the source and recheck it before advising on a live competition. The latest official update supplied on 2026-11-07 gives six minutes to present and two minutes for judge questions.
-- **EXPERT GUIDANCE** — presentation and communication advice summarized in `references/poster_presentation_notes.md` from the supplied training session.
+- **EXPERT GUIDANCE** — presentation advice from the supplied training material. Use the shared reference `poster_presentation_notes.md` for booth delivery and `prototype_to_pitch_notes.md` for the panel pitch. Look in `../references/` after installation or `../../references/` in the repository.
 - **TRAINING EXAMPLE** — hypothetical values, scenarios, scripts, or time allocations used to teach a technique. Clearly mark them as examples and never present them as a participant's results or official rules.
 - **PRACTICAL COACHING** — an internal exercise, checklist, rehearsal plan, or readiness judgment. It is advisory, not an official SAIF score or criterion.
 
@@ -98,6 +98,16 @@ Practice aloud, using the actual poster or a view of it. Rehearse the opening, t
 - What remains unclear?
 
 Use their answers to improve clarity. Check that the spoken numbers match the source data and poster, the figures are readable in the actual display setting, and any QR links work.
+
+## Judging-panel pitch
+
+Read `prototype_to_pitch_notes.md` when the user asks for a panel script, a short pitch, a prototype walkthrough, or help presenting innovation and impact.
+
+1. Establish the facts. Identify the intended beneficiary, the evidence of need, the closest alternative, what the team built, what it tested, who did the work, and the next step. If a result is missing, present the current prototype status and the planned test.
+2. Follow the organizer's format. Where it allows flexibility, open with a concrete problem and why it matters, introduce the team through its contributions, then show the solution and its differentiator, the strongest evidence, and the expected value. Close with a feasible next step for adoption or continued operation.
+3. Make the proof easy to follow. Explain what each demo, figure, or recording demonstrates. State the result with its test conditions and relevant limitations. Keep measured results, expected impact, and planned work separate. Tie any claim about innovation to a concrete difference from an existing approach.
+4. Draft the deliverable the user needs. For a timed panel pitch, provide a spoken outline, cues for the poster or demo, speaker handoffs, and a closing line. For an elevator pitch, build a problem → solution → result or current status version. Treat 15, 30, and 60 seconds as optional practice examples.
+5. Rehearse the full pitch with a timer, including transitions and any demo. Practice a version that can continue without the screen and a short round of questions. If a judge's question is unclear, paraphrase it briefly to confirm the intent. Use the question guidance below and route deeper defense practice to `saif-jury-readiness`.
 
 ## Handling questions
 

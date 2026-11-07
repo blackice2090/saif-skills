@@ -9,6 +9,7 @@
 ## Practical judge/expert guidance
 - `Video Project 3.srt`
 - User-provided presentation-training material, summarized in `poster_presentation_notes.md`.
+- User-provided summary of Tuwaiq Academy's panel-pitch session, distilled in `prototype_to_pitch_notes.md`.
 
 ## Project-track list
 Use the 14-track list supplied in the SAIF project materials.

@@ -58,9 +58,10 @@ Use `saif-scientific-poster` when the user:
 ### Stage 5 — Jury readiness
 Use `saif-jury-readiness` after the project has a defined gap, method, and evidence, or when the user explicitly asks for judge questions / red-team review.
 
-### Stage 6 — Poster presentation and delivery
+### Stage 6 — Poster presentation and panel pitch
 Use `saif-poster-presentation` when the user:
 - asks how to explain or present the poster to visitors, judges, or a general audience;
+- needs a judging-panel pitch that explains the prototype, evidence, innovation, impact, or plan after the competition;
 - wants a short opening, poster walkthrough, talk track, closing, or audience-adapted explanation;
 - wants to rehearse, improve confidence or body language, coordinate team speaking roles, or prepare for the presentation session;
 - wants to make the poster a starting point for an evidence-based conversation.
