@@ -1,13 +1,19 @@
 # SAIF 2026 — Official Submission Rules Reference
 
-Use this file only for competition requirements that are explicitly stated in the provided SAIF platform guide, official poster template, poster-preparation guide, and the project's official track list.
+Use this file only for competition requirements that are explicitly stated in the provided SAIF platform guide, official poster template, poster-preparation guide, current official SAIF participant page, and the project's official track list.
 
 ## Source precedence
-1. Official SAIF platform guide and official poster template.
+1. Current official SAIF participant page, platform guide, and official poster template.
 2. Official poster-preparation guide.
 3. Officially provided competition track list.
 4. Judge/expert training video for interpretation and presentation guidance, not as an official scoring rubric.
 5. Internal diagnostic models created by these skills are advisory only and must never be presented as official SAIF judging criteria.
+
+## Project presentation
+- The latest official SAIF timing update supplied on 2026-11-07 states: 6 minutes to present the project, followed by 2 minutes for judge questions.
+- Official guidance recommends practicing with a timer, presenting the complete project, then reviewing what needs shortening or clarification.
+- The SAIF participant page gives the project presentation sequence: problem, solution, implementation and testing, and results and expected impact.
+- Source: official SAIF update text supplied by the user on 2026-11-07 and the [SAIF participant page](https://saifair.sa/participants). The public page may take time to reflect a same-day update. Recheck the current page and participant guide before advising on a live presentation because official instructions can change.
 
 ## Project submission language
 - Project information and submitted documents must be in English.

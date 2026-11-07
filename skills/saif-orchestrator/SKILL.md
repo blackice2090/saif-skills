@@ -1,6 +1,6 @@
 ---
 name: saif-orchestrator
-description: End-to-end SAIF 2026 competition coach that routes a contestant from idea diagnosis to project submission, poster readiness, and jury preparation while separating official requirements from advisory coaching.
+description: End-to-end SAIF 2026 competition coach that routes a contestant from idea diagnosis to project submission, poster readiness, poster presentation delivery, and jury preparation while separating official requirements from advisory coaching.
 ---
 
 # SAIF Orchestrator
@@ -12,6 +12,7 @@ Take the contestant from "I have an idea" to "my SAIF submission is complete and
 Read and follow:
 - `../references/official_submission_rules.md`
 - `../references/judge_video_notes.md`
+- `../references/poster_presentation_notes.md`
 - `../references/project_readiness_model.md`
 
 ## Source discipline
@@ -57,6 +58,21 @@ Use `saif-scientific-poster` when the user:
 ### Stage 5 — Jury readiness
 Use `saif-jury-readiness` after the project has a defined gap, method, and evidence, or when the user explicitly asks for judge questions / red-team review.
 
+### Stage 6 — Poster presentation and panel pitch
+Use `saif-poster-presentation` when the user:
+- asks how to explain or present the poster to visitors, judges, or a general audience;
+- needs a judging-panel pitch that explains the prototype, evidence, innovation, impact, or plan after the competition;
+- wants a short opening, poster walkthrough, talk track, closing, or audience-adapted explanation;
+- wants to rehearse, improve confidence or body language, coordinate team speaking roles, or prepare for the presentation session;
+- wants to make the poster a starting point for an evidence-based conversation.
+
+Keep the boundary clear:
+- Use `saif-scientific-poster` to write, structure, or redesign poster content.
+- Use `saif-poster-presentation` to deliver and rehearse the explanation.
+- Use `saif-jury-readiness` for deeper red-team review and evidence-backed answers to challenging judge questions.
+
+The latest official SAIF timing update supplied on 2026-11-07 is six minutes to present, followed by two minutes for judge questions. Check the live official guidance before planning a real session because requirements can change. Treat the training video's older seven-minute presentation / ten-minute Q&A figures as superseded context, not current official timing.
+
 ## Conversation policy
 - Ask only for missing information that materially changes the next decision.
 - Do not dump all stages unless the user asks for the whole roadmap.
@@ -96,10 +112,11 @@ Use UNKNOWN when not known. Never fabricate.
 3. Lock track and project thesis.
 4. Write application copy.
 5. Build/audit poster.
-6. Package evidence in Drive.
-7. Run submission compliance audit.
-8. Submit a safe early version.
-9. Run jury red-team for future rounds.
+6. Rehearse poster presentation and visitor/judge conversations.
+7. Package evidence in Drive.
+8. Run submission compliance audit.
+9. Submit a safe early version.
+10. Run jury red-team for future rounds.
 
 ## Output style
 For stage work, prefer:

@@ -9,7 +9,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/%40blackice27%2Fsaif-skills.svg)](https://www.npmjs.com/package/@blackice27/saif-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A focused Agent Skills pack for **SAIF 2026** that takes a contestant from project diagnosis to application writing, scientific poster preparation, submission compliance, and jury readiness.
+A focused Agent Skills pack for **SAIF 2026** that takes a contestant from project diagnosis to application writing, scientific poster preparation and presentation, submission compliance, and jury readiness.
 
 > **Unofficial community toolkit.** This repository is not an official SAIF, Tuwaiq Academy, or organizer product. Competition requirements inside the skills are grounded in the supplied SAIF materials. Advisory scoring and coaching logic are clearly separated from official requirements.
 
@@ -60,7 +60,10 @@ For a project-local install, omit `--global`.
 | `saif-application-writer` | Produces precise English portal content, including the 500-character marketing summary |
 | `saif-submission-compliance` | Audits portal, team, files, Drive, IP, previous participation, and final submission requirements |
 | `saif-scientific-poster` | Builds and audits the scientific poster using the supplied SAIF template/guidance |
+| `saif-poster-presentation` | Builds and rehearses evidence-based poster walkthroughs and prototype pitches for judges |
 | `saif-jury-readiness` | Red-teams claims and prepares evidence-backed answers for judge questions |
+
+The seven-skill journey is: **diagnose the project → write the application → check submission compliance → build the poster → present and rehearse the poster → prepare for judge questions**. The orchestrator routes to the relevant stage based on what the contestant needs now.
 
 Shared references are installed automatically with the skills.
 
@@ -150,10 +153,13 @@ saif-skills/
 │  ├─ saif-application-writer/SKILL.md
 │  ├─ saif-submission-compliance/SKILL.md
 │  ├─ saif-scientific-poster/SKILL.md
+│  ├─ saif-poster-presentation/SKILL.md
 │  └─ saif-jury-readiness/SKILL.md
 ├─ references/
 │  ├─ official_submission_rules.md
 │  ├─ judge_video_notes.md
+│  ├─ poster_presentation_notes.md
+│  ├─ prototype_to_pitch_notes.md
 │  ├─ project_readiness_model.md
 │  └─ source_map.md
 ├─ .github/workflows/
@@ -163,10 +169,11 @@ saif-skills/
 
 ## Design principles
 
-The skills deliberately separate three different things:
+The skills deliberately separate four different things:
 
 - **Official requirements:** rules supported by the supplied SAIF materials.
 - **Expert guidance:** advice extracted from the supplied judge/expert video notes.
+- **Training examples:** hypothetical results, scenarios, and context-specific timing examples; these are not project facts or official rules.
 - **Internal coaching:** readiness scoring, red-team questions, and improvement plans. These are not represented as official SAIF judging criteria.
 
 A submission can therefore be administratively complete while still being scientifically weak, or technically strong while still failing an official submission requirement. The toolkit treats those as separate states.
@@ -187,7 +194,7 @@ To test the local package without publishing:
 
 ```bash
 npm pack
-npx ./blackice2090-saif-skills-0.1.0.tgz install --target ./tmp-skills
+npx ./blackice27-saif-skills-0.2.0.tgz install --target ./tmp-skills
 node ./bin/saif-skills.js doctor --target ./tmp-skills
 ```
 
@@ -204,7 +211,7 @@ Before publishing a release:
 ```bash
 npm test
 npm pack --dry-run
-npm version patch   # or minor / major
+npm version minor   # or patch / major
 git push --follow-tags
 ```
 

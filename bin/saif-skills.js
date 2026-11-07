@@ -152,7 +152,7 @@ function doctor(opts) {
     console.log(`${exists ? '✓' : '✗'} ${skill}/SKILL.md`);
     if (!exists) ok = false;
   }
-  const refs = ['official_submission_rules.md', 'judge_video_notes.md', 'project_readiness_model.md', 'source_map.md'];
+  const refs = ['official_submission_rules.md', 'judge_video_notes.md', 'poster_presentation_notes.md', 'prototype_to_pitch_notes.md', 'project_readiness_model.md', 'source_map.md'];
   for (const ref of refs) {
     const file = path.join(target, 'references', ref);
     const exists = fs.existsSync(file);
@@ -185,13 +185,13 @@ function selfTest() {
       ok = false;
       continue;
     }
-    const text = fs.readFileSync(file, 'utf8');
+    const text = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
     if (!text.startsWith('---\n') || !text.includes('\nname:') || !text.includes('\ndescription:')) {
       console.error(`Invalid SKILL.md frontmatter: ${file}`);
       ok = false;
     }
   }
-  for (const ref of ['official_submission_rules.md', 'judge_video_notes.md', 'project_readiness_model.md', 'source_map.md']) {
+  for (const ref of ['official_submission_rules.md', 'judge_video_notes.md', 'poster_presentation_notes.md', 'prototype_to_pitch_notes.md', 'project_readiness_model.md', 'source_map.md']) {
     if (!fs.existsSync(path.join(referencesRoot, ref))) {
       console.error(`Missing reference: ${ref}`);
       ok = false;

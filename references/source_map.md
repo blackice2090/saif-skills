@@ -4,9 +4,12 @@
 - `دليل استخدام المنصة - سيف (عربي) - روابط نشطة...pdf`
 - `SAIF Poster Template - 2026...pdf`
 - `إعداد الملصق العلمي...pdf`
+- Current official SAIF participant page: https://saifair.sa/participants (recheck before relying on live requirements).
 
 ## Practical judge/expert guidance
 - `Video Project 3.srt`
+- User-provided presentation-training material, summarized in `poster_presentation_notes.md`.
+- User-provided summary of Tuwaiq Academy's panel-pitch session, distilled in `prototype_to_pitch_notes.md`.
 
 ## Project-track list
 Use the 14-track list supplied in the SAIF project materials.
