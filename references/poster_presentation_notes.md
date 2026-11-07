@@ -6,14 +6,19 @@ This reference summarizes the user-provided material titled **“Scientific Post
 
 ### OFFICIAL REQUIREMENT / OFFICIAL GUIDANCE
 
-The official SAIF participant page currently says to:
+The latest official SAIF timing update supplied on 2026-11-07 says:
+
+- each contestant has **6 minutes to present the project**, followed by **2 minutes for judge questions**;
+- contestants should practice with a timer, deliver the complete presentation, and review what needs shortening or clarification.
+
+The official SAIF participant page also says to:
 
 - make the poster clear and easy to read using the approved template, presenting the problem, methodology, innovation, results, and impact;
 - support project claims with evidence and experiments and keep presentation, poster, and project-file information consistent;
 - coordinate team roles at the booth and stay ready to present;
-- present the project in a clear sequence within **7 minutes**, covering the problem, solution, implementation and testing, and results and expected impact; prepare to answer judge questions afterward.
+- present the project in a clear sequence covering the problem, solution, implementation and testing, and results and expected impact; prepare to answer judge questions afterward.
 
-Source: [SAIF participant page](https://saifair.sa/participants), checked 2026-11-07. Recheck the page and downloadable participant guide before planning a live presentation because official instructions can change. The current page does not state a fixed Q&A duration.
+Source: official SAIF update text supplied by the user on 2026-11-07, together with the [SAIF participant page](https://saifair.sa/participants). The public page may take time to reflect a same-day update. Recheck the page and downloadable participant guide before planning a live presentation because official instructions can change.
 
 ### EXPERT GUIDANCE
 
@@ -35,7 +40,7 @@ The supplied training-session material recommends:
 
 The material includes a hypothetical phishing-detection comparison: 94% detection versus 61% for keyword filtering, 1.8% of legitimate messages misclassified, and a dataset of 12,000 messages. These are illustrative values from the training scenario, not SAIF results or facts about any contestant's project.
 
-The difference between 94% and 61% is 33 percentage points. Calling it a 33% relative improvement would be a different calculation. The training example also says “7 minutes presentation / 10 minutes questions”; only the seven-minute presentation is independently supported by the current official participant page cited above. Treat the ten-minute Q&A figure as context-specific training material unless current official documentation confirms it.
+The difference between 94% and 61% is 33 percentage points. Calling it a 33% relative improvement would be a different calculation. The training example says “7 minutes presentation / 10 minutes questions.” These timing figures are superseded by the official update supplied on 2026-11-07: 6 minutes to present and 2 minutes for judge questions. Retain the older figures only as historical/context-specific training material, never as current SAIF requirements.
 
 Other sample openings, scripts, time allocations, or project scenarios derived from this source are also training examples unless backed by actual project facts or a current official rule.
 

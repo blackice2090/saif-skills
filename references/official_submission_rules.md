@@ -10,9 +10,10 @@ Use this file only for competition requirements that are explicitly stated in th
 5. Internal diagnostic models created by these skills are advisory only and must never be presented as official SAIF judging criteria.
 
 ## Project presentation
-- The current official participant page lists a seven-minute presentation with a clear sequence covering the problem, solution, implementation and testing, and results and expected impact, followed by judge questions.
-- The page does not specify a fixed duration for the question period.
-- Source: [SAIF participant page](https://saifair.sa/participants), checked 2026-11-07. Recheck the current page and participant guide before advising on a live presentation because official instructions can change.
+- The latest official SAIF timing update supplied on 2026-11-07 states: 6 minutes to present the project, followed by 2 minutes for judge questions.
+- Official guidance recommends practicing with a timer, presenting the complete project, then reviewing what needs shortening or clarification.
+- The SAIF participant page gives the project presentation sequence: problem, solution, implementation and testing, and results and expected impact.
+- Source: official SAIF update text supplied by the user on 2026-11-07 and the [SAIF participant page](https://saifair.sa/participants). The public page may take time to reflect a same-day update. Recheck the current page and participant guide before advising on a live presentation because official instructions can change.
 
 ## Project submission language
 - Project information and submitted documents must be in English.

@@ -70,7 +70,7 @@ Keep the boundary clear:
 - Use `saif-poster-presentation` to deliver and rehearse the explanation.
 - Use `saif-jury-readiness` for deeper red-team review and evidence-backed answers to challenging judge questions.
 
-The current official SAIF participant page lists a seven-minute project presentation. Confirm the live official guidance before planning a real session because requirements can change. Do not treat the training video's ten-minute Q&A example as an official duration unless current official materials confirm it.
+The latest official SAIF timing update supplied on 2026-11-07 is six minutes to present, followed by two minutes for judge questions. Check the live official guidance before planning a real session because requirements can change. Treat the training video's older seven-minute presentation / ten-minute Q&A figures as superseded context, not current official timing.
 
 ## Conversation policy
 - Ask only for missing information that materially changes the next decision.

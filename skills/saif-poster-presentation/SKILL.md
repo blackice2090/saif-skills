@@ -13,7 +13,7 @@ Help a contestant turn a scientific poster into a clear, evidence-based conversa
 
 Label claims and recommendations using these categories:
 
-- **OFFICIAL REQUIREMENT / OFFICIAL GUIDANCE** — a current requirement or instruction stated by SAIF's official materials. Link or name the source and recheck it before advising on a live competition. The current participant page lists a seven-minute project presentation; it does not establish a ten-minute Q&A period.
+- **OFFICIAL REQUIREMENT / OFFICIAL GUIDANCE** — a current requirement or instruction stated by SAIF's official materials. Link or name the source and recheck it before advising on a live competition. The latest official update supplied on 2026-11-07 gives six minutes to present and two minutes for judge questions.
 - **EXPERT GUIDANCE** — presentation and communication advice summarized in `references/poster_presentation_notes.md` from the supplied training session.
 - **TRAINING EXAMPLE** — hypothetical values, scenarios, scripts, or time allocations used to teach a technique. Clearly mark them as examples and never present them as a participant's results or official rules.
 - **PRACTICAL COACHING** — an internal exercise, checklist, rehearsal plan, or readiness judgment. It is advisory, not an official SAIF score or criterion.
@@ -84,9 +84,9 @@ Agree who leads each part and how to hand off naturally. Make sure each member c
 
 ### 8. Plan timing from current official guidance
 
-Check the current SAIF participant page or guide each time a real presentation is planned. As checked on 2026-11-07, the official participant page lists a **seven-minute project presentation** and says to prepare for judge questions afterward. Do not add a fixed question duration: the training session's ten-minute Q&A is a **TRAINING EXAMPLE / context-specific statement**, not verified here as an official current requirement.
+Check the current SAIF participant page or guide each time a real presentation is planned. The latest official SAIF timing update supplied on 2026-11-07 states **6 minutes to present the project, followed by 2 minutes for judge questions**. Use this as the current official timing, while rechecking the live guidance before a real session because instructions can change.
 
-When a seven-minute limit is confirmed for the user's session, create a flexible timed outline and rehearse to leave room for natural transitions. Label suggested section allocations as **PRACTICAL COACHING**, not official judging weights. If the live guidance changes, use the newer official instruction.
+Create a timed outline that fits the six-minute presentation and rehearse to leave room for natural transitions. Label any suggested allocation within the six minutes as **PRACTICAL COACHING**, not official judging weights. Do not use the older training-session figures of seven minutes for the presentation and ten minutes for questions as current official timing.
 
 ### 9. Rehearse and refine
 
